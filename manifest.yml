@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Bank Sampah
+  host: Bank-Sampah
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Personality Insights-7p
